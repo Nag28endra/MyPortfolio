@@ -66,8 +66,37 @@ sr.reveal('.skills__subtitle', {})
 sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
 sr.reveal('.skills__img', {delay: 400})
 
-/*SCROLL PORTFOLIO*/
-sr.reveal('.portfolio__img', {interval: 200})
+/*SCROLL PROJECTS TIMELINE*/
+sr.reveal('.project__item', {
+    origin: 'left',
+    distance: '40px',
+    duration: 1200,
+    interval: 200
+})
+
+sr.reveal('.project__title', {
+    origin: 'top',
+    distance: '20px',
+    delay: 200
+})
+
+sr.reveal('.project__role', {
+    origin: 'top',
+    distance: '20px',
+    delay: 300
+})
+
+sr.reveal('.project__desc', {
+    origin: 'top',
+    distance: '20px',
+    delay: 400
+})
+
+sr.reveal('.project__tools', {
+    origin: 'bottom',
+    distance: '20px',
+    delay: 500
+})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
